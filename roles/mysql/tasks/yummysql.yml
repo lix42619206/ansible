@@ -1,0 +1,6 @@
+---
+- name: yum mysql package
+  yum: name={{ item }}
+  with_items:
+    - mysql
+    - mysql-server

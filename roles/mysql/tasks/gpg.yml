@@ -1,0 +1,3 @@
+---
+- name: import mysql gpg
+  shell: 'rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022'

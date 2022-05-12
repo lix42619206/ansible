@@ -1,0 +1,5 @@
+---
+- include: yumsource.yml
+- include: yumredis.yml
+- include: templ.yml
+- include: start.yml

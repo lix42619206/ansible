@@ -1,0 +1,4 @@
+---
+- name: start service
+  systemd: name=mysqld state=started enabled=true
+  notify: change password

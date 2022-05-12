@@ -1,0 +1,6 @@
+---
+- name: copy template
+  template: src=redis.conf.j2 dest=/etc/redis.conf
+  notify: 
+    - restart service
+    - view password 

@@ -1,0 +1,5 @@
+---
+- name: install yum source
+  yum: name={{ item }}
+  with_items:
+    - http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm

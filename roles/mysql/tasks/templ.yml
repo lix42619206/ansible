@@ -1,0 +1,4 @@
+---
+- name: copy template
+  template: src=my.cnf.j2 dest=/etc/my.cnf
+  notify: restart service

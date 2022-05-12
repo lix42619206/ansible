@@ -1,0 +1,6 @@
+---
+- include: yumsource.yml
+- include: gpg.yml
+- include: yummysql.yml
+- include: start.yml
+- include: templ.yml

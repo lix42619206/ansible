@@ -2,3 +2,4 @@
 - include: firewalld.yml
 - include: selinux.yml
 - include: hostname.yml
+- include: epel.yml
